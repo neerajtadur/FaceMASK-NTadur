@@ -1,18 +1,18 @@
 # FaceMASK-GIT
  Face Mask Detection
- Data Set: 
-This dataset consists of 4095 images belonging to two classes:
+ # Data Set: 
+  This dataset consists of 4095 images belonging to two classes:
 
-with_mask: 2165 images
-without_mask: 1930 images
+  Face_not_visible: 2165 images
+  Face_visible: 1930 images
 
 PreRequisites:
 All the dependencies and required libraries are included in the file requirements.txt
 
-Installation:
+# Installation:
 
 1. Clone the repo:
-$ git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
+$ git clone https://github.com/neerajtadur/FaceMASK-NTadur.git
 
 2. Change your directory to the cloned repo:
 $ cd FaceMASK-NTadur
@@ -25,14 +25,16 @@ conda activate Test
 $ pip3 install -r requirements.txt
 
 
-Working:
+# Working:
 
 Open terminal. Go into the cloned project directory and type the following command:
 
-# Training 
+Training :
+
 $ python3 train_mask_detector.py --dataset dataset
 
-# To Run the model on local webcam, type the following command
+To Run the model on local webcam, type the following command:
+
 $ python3 detect_mask_video.py 
 
 
